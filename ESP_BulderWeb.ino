@@ -66,7 +66,7 @@ void handleParams() {
 
   //// NEOPIXEL
   //pixels.clear(); // Set all pixel colors to 'off'
-  pixels.setPixelColor(valor_entero, color);
+  pixels.setPixelColor(presa, color);
   pixels.show();  
 
   server.send(200,"application/json","");
